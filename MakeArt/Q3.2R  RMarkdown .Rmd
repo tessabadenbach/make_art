@@ -1,0 +1,30 @@
+---
+title: "Q3.2R.2 RMarkdown file"
+author: "Theresa Badenbach"
+date: "28/01/2022"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# How to use the make_art() Function
+
+### Creating a random artwork
+
+The make_art() function creates random artworks from three different templates. 
+To get a random artwork, you just have  to call the function: make_art()
+
+Then you should see an artwork like this: 
+![art](/Users/theresabadenbach/Desktop/myartwork1.png)
+
+### Creating a reproducible artwork
+
+If you want to create a reproducible image, you just need insert an argument when calling the function.
+For example, you can call make_art(100). Then you will get the same image every time you call make_art(100).
+
+![](/Users/theresabadenbach/Desktop/myartwork2.png)
+
+

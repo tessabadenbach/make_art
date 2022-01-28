@@ -1,1 +1,9 @@
 exportPattern("^[[:alpha:]]+")
+
+import(ggplot2)
+import(ggforce)
+import(tidyverse)
+import(scales)
+import(glue)
+import(flametree)
+

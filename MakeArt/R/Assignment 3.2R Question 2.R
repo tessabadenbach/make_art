@@ -1,3 +1,10 @@
+
+
+library(ggplot2)
+
+
+
+
 make_art <- function(seed=NULL){
   set.seed(seed)
   RandomNum <- sample(1:3, 1)
